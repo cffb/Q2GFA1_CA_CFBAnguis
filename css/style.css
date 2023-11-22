@@ -74,7 +74,7 @@ footer{
     float: right;
 }
 .icon{
-    background: url(""./media/sprite3.png) no-repeat;
+    background: url(../media/sprite3.png) no-repeat;
     width: 66px;
     height: 66px;
     display: inline-block;
