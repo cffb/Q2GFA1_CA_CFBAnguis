@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 205, 205);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    background-color: rgb(115, 186, 209);
+    color: rgb(43, 13, 13);
+}
+.links a{
+    padding-left: 1vw;
+}
+.pagetitle{
+    color: rgb(0, 0, 0);
+}
+.pagetitle b{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and ( max-width: 600px )
+{
+    nav{
+        position: relative;
+       
+         }
+    .pagetitle{
+        background-color: rgb(160, 212, 229);
+        padding: 1vw;
+        color: rgb(250, 250, 250);
+        }
+    
+    .links{
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: white;
+        z-index: 1;
+        background-color: rgb(143, 190, 214)
+    }
+    .links a{
+        color: white;
+        padding: 12px 16px;
+        display: block;
+       
+    }
+    .links a:hover{background-color: rgb(206, 221, 226)}
+    nav:hover .links{display: block;}
+    nav:hover .pagetitle{background-color: rgb(158, 196, 209)}
+
+    
+}
+#myVideo {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1;
+  }
+
+footer{
+    background-color: rgb(115, 186, 209);
+    position: fixed;
+    bottom: 0%;
+    width: 100vw;
+}
+#icontainer{
+    float: right;
+}
+.icon{
+    background: url(/media/sprite3.png) no-repeat;
+    width: 66px;
+    height: 66px;
+    display: inline-block;
+}
+#soundcloud
+{
+    background-position: -587px -72px;
+}
+#facebook
+{
+    background-position: -439px -146px;
+}
+#youtube
+{
+    background-position: -439px -221px;
+}
+#pinterest
+{
+    background-position: -141px -221px;
+}
+
+#banner
+{
+    z-index: 9;
+    margin-top: 20vh;
+    height: 30vh;
+    width: 100vw;
+    
+}
+#banner h1
+{
+    margin-left: 17vw;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+#banner p
+{
+    margin-left: 17vw;
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
